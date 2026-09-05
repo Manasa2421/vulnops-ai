@@ -27,6 +27,64 @@ Managing those findings introduces challenges such as:
 
 VulnOps AI is being built to demonstrate solutions to these types of vulnerability operations problems.
 
+## Technology Stack
+
+### Currently Implemented
+
+| Area | Technology |
+|---|---|
+| Programming Language | Python 3.12 |
+| Backend Framework | FastAPI |
+| API Design | REST API, OpenAPI / Swagger |
+| Application Server | Uvicorn |
+| Testing | pytest, FastAPI TestClient, HTTPX |
+| Version Control | Git, GitHub |
+
+### Planned / In Development
+
+| Area | Technology |
+|---|---|
+| Database | PostgreSQL, SQLAlchemy |
+| Asynchronous Processing | Redis, Celery |
+| Security Scanning | Bandit, extensible scanner integrations |
+| AI / LLM | LLM APIs, agent-assisted vulnerability triage |
+| Frontend | React, TypeScript |
+| Containerization | Docker, Docker Compose |
+| Orchestration | Kubernetes |
+| CI/CD | GitHub Actions |
+| Configuration & Secrets | Environment variables, secret-management patterns |
+
+## Engineering Skills
+
+### Currently Demonstrated
+
+- Python backend development
+- FastAPI REST API development
+- OpenAPI / Swagger documentation
+- Automated API testing with pytest
+- HTTP endpoint testing with FastAPI TestClient
+- Git and GitHub version-control workflow
+- Incremental, test-driven development practices
+
+### Project Roadmap Skills
+
+As the platform develops, the project will demonstrate:
+
+- PostgreSQL and relational data modeling
+- SQL-based data reconciliation
+- Repository and asset inventory management
+- Vulnerability scanning
+- Finding normalization
+- Vulnerability lifecycle management
+- Finding fingerprinting and deduplication
+- Asynchronous worker and job-queue architecture
+- Retry and failure handling
+- LLM-assisted vulnerability analysis and triage
+- React and TypeScript frontend development
+- Docker containerization
+- Kubernetes orchestration
+- CI/CD automation
+
 ## Current Architecture
 
 ```text
